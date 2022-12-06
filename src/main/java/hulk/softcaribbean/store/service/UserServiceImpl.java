@@ -16,4 +16,14 @@ public class UserServiceImpl implements UserService{
     public User findById(long id) {
         return userRepository.findById(id).orElse(null);
     }
+
+    @Override
+    public Boolean existsByUsername(String email) {
+        return userRepository.existsByEmail(email);
+    }
+
+    @Override
+    public User save(User user) {
+        return userRepository.save(user);
+    }
 }

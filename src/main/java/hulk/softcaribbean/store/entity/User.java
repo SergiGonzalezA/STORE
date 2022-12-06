@@ -24,4 +24,10 @@ public class User implements Serializable {
     private String password;
     private LocalDate dateCreated;
     private LocalDate dateUpdated;
+
+    public User(String nameUser, String email, String password) {
+        this.nameUser = nameUser;
+        this.email = email;
+        this.password = password;
+    }
 }
