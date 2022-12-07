@@ -2,7 +2,6 @@ package hulk.softcaribbean.store.controller;
 
 
 import hulk.softcaribbean.store.controller.base.ApplicationCustomException;
-import hulk.softcaribbean.store.dto.ProductDto;
 import hulk.softcaribbean.store.entity.Product;
 import hulk.softcaribbean.store.service.ProductService;
 import hulk.softcaribbean.store.util.MessagesConstants;
